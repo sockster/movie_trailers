@@ -1,13 +1,22 @@
 import fresh_tomatoes_1
 import media
 
-# Each data entry in instance media of class Movie contains (in this order):
-# title
-# date
-# director
-# tagline
-# poster
-# trailer
+
+"""
+fresh_tomatoes_1  (imported function):
+ > Create movie tiles from content in list "movies"
+ > Open movies page
+ > Display formatted page and movie tiles (instances of class Movie) using CSS
+
+media (imported function):
+ > Create class "Movie" with attributes (in this order):
+   title, data, director, tagline, poster, trailer
+
+Methods defined:
+ >   __init__(self, movie_title, movie_date, movie_director, movie_tagline,
+             poster_image, trailer_youtube)
+ >   show_trailer(self)
+"""
 
 
 big_lebowski = media.Movie(
